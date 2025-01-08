@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57741
+50211
 Successfully changed project path to: /Users/game112/My project 2
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game112/My project 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game112/My project 2/Assets
 GfxDevice: creating device client; threaded=0
-2024-12-11 09:08:02.033 Unity[13938:708927] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2024-12-11 09:08:02.033 Unity[13938:708927] Metal devices available: 1
-2024-12-11 09:08:02.033 Unity[13938:708927] 0: AMD Radeon Pro 5500 XT (high power)
-2024-12-11 09:08:02.034 Unity[13938:708927] Using device AMD Radeon Pro 5500 XT (high power)
+2025-01-08 08:59:48.168 Unity[44627:2306864] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2025-01-08 08:59:48.168 Unity[44627:2306864] Metal devices available: 1
+2025-01-08 08:59:48.168 Unity[44627:2306864] 0: AMD Radeon Pro 5500 XT (high power)
+2025-01-08 08:59:48.169 Unity[44627:2306864] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56938
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56627
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000434 seconds.
+Registered in 0.000460 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
+- Completed reload, in  0.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (588ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (469ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
+				RefreshPlugins (42ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001819 seconds.
+Registered in 0.003688 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 41.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
+- Completed reload, in  1.086 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1096ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (906ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
+			SetupTypeCache (321ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (342ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (329ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (42ms)
 				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.007050 seconds.
+Validating Project structure ... 0.003407 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.003777 seconds.
+Upgrading shader files ...0.003738 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,77 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2538 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 229.7 MB.
-System memory in use after: 228.8 MB.
+System memory in use after: 228.9 MB.
 
-Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 3005.
-Total: 3.130636 ms (FindLiveObjects: 0.185904 ms CreateObjectMapping: 0.102516 ms MarkObjects: 2.395224 ms  DeleteObjects: 0.446263 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(0f51c8f4699954826adcc0cb6df7435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(0f51c8f4699954826adcc0cb6df7435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d07c4d919475e19b4feeb465a905c83') in 0.293824 seconds 
-  Import took 0.299884 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001820 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (858ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (316ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 234.5 MB.
-System memory in use after: 234.5 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3008.
-Total: 2.541609 ms (FindLiveObjects: 0.157378 ms CreateObjectMapping: 0.085881 ms MarkObjects: 2.228809 ms  DeleteObjects: 0.068927 ms)
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 3006.
+Total: 3.007751 ms (FindLiveObjects: 0.161278 ms CreateObjectMapping: 0.094468 ms MarkObjects: 2.334196 ms  DeleteObjects: 0.417159 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -213,57 +150,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 263.278148 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(0f51c8f4699954826adcc0cb6df7435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(0f51c8f4699954826adcc0cb6df7435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c587ccd010b58759822a957cb6670870') in 0.004030 seconds 
-  Import took 0.007899 seconds .
+  path: Assets/Scripts/HealthCollectible.cs
+  artifactKey: Guid(b28002efd6c2e4ba18b37a9e66351c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthCollectible.cs using Guid(b28002efd6c2e4ba18b37a9e66351c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c176d6ad08c0a41e582287e0f590e463') in 0.274722 seconds 
+  Import took 0.281688 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001724 seconds.
+Registered in 0.002867 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (856ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (855ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (313ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (317ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (215ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (216ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 234.7 MB.
-System memory in use after: 234.8 MB.
+Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.5 MB.
+System memory in use after: 234.6 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3010.
-Total: 2.724847 ms (FindLiveObjects: 0.158846 ms CreateObjectMapping: 0.090689 ms MarkObjects: 2.394250 ms  DeleteObjects: 0.080369 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3009.
+Total: 2.543962 ms (FindLiveObjects: 0.157955 ms CreateObjectMapping: 0.083444 ms MarkObjects: 2.231990 ms  DeleteObjects: 0.070102 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -276,531 +212,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 183.693714 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_0.asset
-  artifactKey: Guid(c7e9e7dbabd2b4290835b761baab516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_0.asset using Guid(c7e9e7dbabd2b4290835b761baab516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0a4abfe464a687a5e6540944bec736') in 0.861948 seconds 
-  Import took 0.868008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_5.asset
-  artifactKey: Guid(4757c8bb9e55a4333989186412eb66c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_5.asset using Guid(4757c8bb9e55a4333989186412eb66c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318bc1cfea0755d9f046a511c1ca3a1') in 0.006478 seconds 
-  Import took 0.009529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_1.asset
-  artifactKey: Guid(2d4521b8aa03143a7acb124febb5f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_1.asset using Guid(2d4521b8aa03143a7acb124febb5f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f53fcf9c5ff829ae14c36a572bbec54') in 0.004841 seconds 
-  Import took 0.008111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_6.asset
-  artifactKey: Guid(fa3670e910a4f48939e52bc09bbb9bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_6.asset using Guid(fa3670e910a4f48939e52bc09bbb9bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a940a4eb68fd4db3f3f42a0e50ee4d') in 0.005372 seconds 
-  Import took 0.008191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_0.asset
-  artifactKey: Guid(18e2418006509496eb584cb3d6564495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_0.asset using Guid(18e2418006509496eb584cb3d6564495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661c0a90b3f628662222f640f24a607e') in 0.006289 seconds 
-  Import took 0.009918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_5.asset
-  artifactKey: Guid(966fd468893614285950b2096bfff25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_5.asset using Guid(966fd468893614285950b2096bfff25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0039dc98828ada114029124522e53506') in 0.004928 seconds 
-  Import took 0.008473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_8.asset
-  artifactKey: Guid(cee2c917993a24654bf9cb6d7f933516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_8.asset using Guid(cee2c917993a24654bf9cb6d7f933516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781ea0b8e5efed884049fc98e0351086') in 0.004934 seconds 
-  Import took 0.008151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_2.asset
-  artifactKey: Guid(00405394394d045a1addc245a2aa4dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_2.asset using Guid(00405394394d045a1addc245a2aa4dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930cbc4c89477f0fcb555e5bf21c7313') in 0.004714 seconds 
-  Import took 0.007353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_7.asset
-  artifactKey: Guid(b786110c8d73e43439ea97bc9f35a36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_7.asset using Guid(b786110c8d73e43439ea97bc9f35a36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93f40497d739cd279ee30c88ae171f3') in 0.004615 seconds 
-  Import took 0.007217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_2.asset
-  artifactKey: Guid(4ed6a116e45244250aab3df8c0b407b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_2.asset using Guid(4ed6a116e45244250aab3df8c0b407b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4090006651ec29047adf063ac9f8e8b') in 0.004630 seconds 
-  Import took 0.007652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_6.asset
-  artifactKey: Guid(53e71c26f163141968805c61834d9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_6.asset using Guid(53e71c26f163141968805c61834d9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407478312d245709c188b0adadd2a62') in 0.006327 seconds 
-  Import took 0.009893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_7.asset
-  artifactKey: Guid(0140660cd949346f2810d848046c34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_7.asset using Guid(0140660cd949346f2810d848046c34b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfb093c996a169ef89a1dc92f39fd3e') in 0.005159 seconds 
-  Import took 0.008201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_4.asset
-  artifactKey: Guid(45fc5fa3ffcec412bbe42026925ae1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_4.asset using Guid(45fc5fa3ffcec412bbe42026925ae1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6517c93fd2ed889ce78fa13297033a8b') in 0.005132 seconds 
-  Import took 0.008225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_3.asset
-  artifactKey: Guid(c31d6fa5c8ed243a994a90787e8ee00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_3.asset using Guid(c31d6fa5c8ed243a994a90787e8ee00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97ea4648a397f1ef6ef27c580cff059') in 0.004862 seconds 
-  Import took 0.007914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_0.asset
-  artifactKey: Guid(bb7a600b33c854ca1a2646ef9243d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_0.asset using Guid(bb7a600b33c854ca1a2646ef9243d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ffa676c96d5414733e0183b68d61e3') in 0.004882 seconds 
-  Import took 0.007830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_7.asset
-  artifactKey: Guid(2f3013900c7674b59aa6d9e7d93fd29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_7.asset using Guid(2f3013900c7674b59aa6d9e7d93fd29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c103c77bef3c07a06ee84cc6c7563') in 0.004685 seconds 
-  Import took 0.007132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_8.asset
-  artifactKey: Guid(1a5e2188b142b4fe0999006bf6bcd8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_8.asset using Guid(1a5e2188b142b4fe0999006bf6bcd8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a7ebb0a4745bf1fea923ca17902110') in 0.005479 seconds 
-  Import took 0.008165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_8.asset
-  artifactKey: Guid(0d65e9dd23ee34b1b82ba35a92fb5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_8.asset using Guid(0d65e9dd23ee34b1b82ba35a92fb5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41c9a9286565650cdfd840e3ff74aae') in 0.005481 seconds 
-  Import took 0.008506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_6.asset
-  artifactKey: Guid(105fdabcec39a405db8f85cc740117b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_6.asset using Guid(105fdabcec39a405db8f85cc740117b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c5877c87a3d231da58422eb4e94f19') in 0.004852 seconds 
-  Import took 0.007964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_1.asset
-  artifactKey: Guid(f7b3cd3daf3b642488ccb956478d9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_1.asset using Guid(f7b3cd3daf3b642488ccb956478d9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27575a5654f0479455e31e29a42aad6') in 0.004936 seconds 
-  Import took 0.008109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_1.asset
-  artifactKey: Guid(ec2fdee8aa54e41d4b29cd332d315259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_1.asset using Guid(ec2fdee8aa54e41d4b29cd332d315259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45b830baea15da9dcab7ef7096b1811') in 0.004566 seconds 
-  Import took 0.007450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_0.asset
-  artifactKey: Guid(4e005e21ae42849a99bf56313c63d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_0.asset using Guid(4e005e21ae42849a99bf56313c63d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7360dcaeab307937b2f50356fad36cd') in 0.004933 seconds 
-  Import took 0.007574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_3.asset
-  artifactKey: Guid(5f710beed7c574767ae9d85259181832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_3.asset using Guid(5f710beed7c574767ae9d85259181832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90d62169c8b5ae897125b6b7b88b26b') in 0.007318 seconds 
-  Import took 0.010312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_4.asset
-  artifactKey: Guid(ce9d25abb114f4eeabe995b1d5a5d567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_4.asset using Guid(ce9d25abb114f4eeabe995b1d5a5d567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86867c8fcea4c894261a937c98571998') in 0.004700 seconds 
-  Import took 0.007507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_2.asset
-  artifactKey: Guid(5dc3ee536a1f34ed8a74b8b5658632e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVertical_2.asset using Guid(5dc3ee536a1f34ed8a74b8b5658632e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b4ce3f262e8d48889f7bc1848101fb') in 0.004887 seconds 
-  Import took 0.008025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_3.asset
-  artifactKey: Guid(7ce17d3b6b88a40289b4bb28b25d1677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFalloff_3.asset using Guid(7ce17d3b6b88a40289b4bb28b25d1677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cb3f16c793e500c3932d43343596b4') in 0.004529 seconds 
-  Import took 0.007136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_4.asset
-  artifactKey: Guid(5dc1b7d69acb7416cae18658c562a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_4.asset using Guid(5dc1b7d69acb7416cae18658c562a45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238299ce8f76973d5d352d24bc6ca58d') in 0.004359 seconds 
-  Import took 0.006775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_5.asset
-  artifactKey: Guid(5cf7f17b6e50b4f9e9ea4167faace10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBlueGrassToVerticalFlipped_5.asset using Guid(5cf7f17b6e50b4f9e9ea4167faace10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4780d5c8b68c58d537f1812b9bd01d5') in 0.005090 seconds 
-  Import took 0.008784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_1.asset
-  artifactKey: Guid(242a738e66c3343f1848a7b8989d33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_1.asset using Guid(242a738e66c3343f1848a7b8989d33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef8f68cb68ea81292d017220de13050') in 0.007138 seconds 
-  Import took 0.010621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.295643 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_2.asset
-  artifactKey: Guid(caaa0c2b02efc43bc85724f67a42758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_2.asset using Guid(caaa0c2b02efc43bc85724f67a42758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0225b8946bafbe9d49788d3fed85ecc') in 0.004828 seconds 
-  Import took 0.007864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_5.asset
-  artifactKey: Guid(4c84af9bd262c40009409ba433705771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_5.asset using Guid(4c84af9bd262c40009409ba433705771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd93414d8954fb5e2d81b076307bdb6f') in 0.004949 seconds 
-  Import took 0.007731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_7.asset
-  artifactKey: Guid(8ac35edb994a1421db043933716bab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_7.asset using Guid(8ac35edb994a1421db043933716bab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3fd76b219d4fbf05da202b0e6a7ea0') in 0.004661 seconds 
-  Import took 0.007127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_6.asset
-  artifactKey: Guid(6f9b9e08415dd4e288558b92ce92c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_6.asset using Guid(6f9b9e08415dd4e288558b92ce92c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7c14b28e107706b772a158137a7e6f') in 0.005848 seconds 
-  Import took 0.008666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_4.asset
-  artifactKey: Guid(558b59e88c9f746519cb8c4dc5fba432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_4.asset using Guid(558b59e88c9f746519cb8c4dc5fba432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e68a7c444b3858df16348339d27f2b2') in 0.005491 seconds 
-  Import took 0.008695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_8.asset
-  artifactKey: Guid(c662ef3f5b6cf40ab862ae2a6e4e902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_8.asset using Guid(c662ef3f5b6cf40ab862ae2a6e4e902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fde44add66118bb84279af723a5df12') in 0.005316 seconds 
-  Import took 0.008396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_3.asset
-  artifactKey: Guid(ba0fb392ff16a4cffba14090b72a1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorBricksToGrassSquare_3.asset using Guid(ba0fb392ff16a4cffba14090b72a1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8490abfdd8a8c96a6e5c4bd6995be46') in 0.006236 seconds 
-  Import took 0.009212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.157778 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_0.asset
-  artifactKey: Guid(92986f13cff2a4a169313fa2f307786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_0.asset using Guid(92986f13cff2a4a169313fa2f307786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f0b2f0d1cd6aca36589a93df49d5f7') in 0.004951 seconds 
-  Import took 0.008179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_2.asset
-  artifactKey: Guid(31f12b634802c4294a9256968baf3cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_2.asset using Guid(31f12b634802c4294a9256968baf3cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccc06c56817e75c1fb6c07b329e80c3') in 0.004852 seconds 
-  Import took 0.007972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_6.asset
-  artifactKey: Guid(d6b1a631a603146f396265de59484d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_6.asset using Guid(d6b1a631a603146f396265de59484d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc904885c97a242aacb5239a5d858d8c') in 0.004446 seconds 
-  Import took 0.006776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_4.asset
-  artifactKey: Guid(ee5637e0d01cc4f04971fd4bd5785021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_4.asset using Guid(ee5637e0d01cc4f04971fd4bd5785021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd080673a74eae977ba9e2fd97587ffbb') in 0.004596 seconds 
-  Import took 0.007039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_3.asset
-  artifactKey: Guid(6e353e694846e42f087f7ad97b162f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_3.asset using Guid(6e353e694846e42f087f7ad97b162f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c36651868b91b7fb13c6f1bd9921659') in 0.004454 seconds 
-  Import took 0.006906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_5.asset
-  artifactKey: Guid(c7a25299b07f84fbba60ba942fc3a9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_5.asset using Guid(c7a25299b07f84fbba60ba942fc3a9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66040a57e732762835a39a96c7541c0f') in 0.004907 seconds 
-  Import took 0.007709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_1.asset
-  artifactKey: Guid(5ca72cbbc7ac84c5c93e70953cc25b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_1.asset using Guid(5ca72cbbc7ac84c5c93e70953cc25b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227298238ea55bbc3be67f57cb022a69') in 0.004682 seconds 
-  Import took 0.007609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.170889 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_7.asset
-  artifactKey: Guid(6c2ca9e87e81f44a69aee1ad0483bb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_7.asset using Guid(6c2ca9e87e81f44a69aee1ad0483bb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf0c396815542e852e7fedea35ca584') in 0.004969 seconds 
-  Import took 0.008160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_2.asset
-  artifactKey: Guid(d63fcb89f33c04615a04456f1abbab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_2.asset using Guid(d63fcb89f33c04615a04456f1abbab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a136bcf0cc66c1f38f6f60fa1385cfbc') in 0.004837 seconds 
-  Import took 0.007484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_0.asset
-  artifactKey: Guid(6afb7d79a120d48e08b507e54344a6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_0.asset using Guid(6afb7d79a120d48e08b507e54344a6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c9a57558326e3e100b4c619bbecfc1') in 0.004786 seconds 
-  Import took 0.007869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_1.asset
-  artifactKey: Guid(44b97bb058aeb42c1bc1b7c4e7220584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_1.asset using Guid(44b97bb058aeb42c1bc1b7c4e7220584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb82dabb0a3e350dd99c0cf1914fcc1') in 0.004650 seconds 
-  Import took 0.007529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_4.asset
-  artifactKey: Guid(497c232ba03a14565ae54adcb70578a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_4.asset using Guid(497c232ba03a14565ae54adcb70578a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5773c71a990fe625b97d4a2e2bc6db49') in 0.005800 seconds 
-  Import took 0.008884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_3.asset
-  artifactKey: Guid(b15fa3f70dd1a459eb63319ea9bfddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_3.asset using Guid(b15fa3f70dd1a459eb63319ea9bfddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cb2e47dedc14950cdf7d38c4d61b74') in 0.005974 seconds 
-  Import took 0.009067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_8.asset
-  artifactKey: Guid(5f4b77cc9d7234fc9b6fff995d6ff815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksCorner_8.asset using Guid(5f4b77cc9d7234fc9b6fff995d6ff815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ec70d1c60aa374d1fd2293a6c020a6') in 0.005835 seconds 
-  Import took 0.009025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084425 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_5.asset
-  artifactKey: Guid(612c620f9f52f4b06a54177b69fd45b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_5.asset using Guid(612c620f9f52f4b06a54177b69fd45b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56dc1bd762494ea248a404ca7b3d6c6') in 0.005262 seconds 
-  Import took 0.008404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_7.asset
-  artifactKey: Guid(863b9a5517ee541b5872e415486ea479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_7.asset using Guid(863b9a5517ee541b5872e415486ea479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7525a6311d12a1e77b6699a4968ec1dc') in 0.004696 seconds 
-  Import took 0.007570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_8.asset
-  artifactKey: Guid(56bcb0ee463894001bb48b860b8437dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_8.asset using Guid(56bcb0ee463894001bb48b860b8437dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2cafcd6a332418c6c4255e9b516204') in 0.004870 seconds 
-  Import took 0.007582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_1.asset
-  artifactKey: Guid(2f88906d222c741e9bad69c736c578ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_1.asset using Guid(2f88906d222c741e9bad69c736c578ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea946a02a5def14c46299d16fa557b5') in 0.004450 seconds 
-  Import took 0.006872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_2.asset
-  artifactKey: Guid(c4a177f17d74242bfbb1d8b0bd65e067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_2.asset using Guid(c4a177f17d74242bfbb1d8b0bd65e067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be866fea91c496681274192b7223f333') in 0.004769 seconds 
-  Import took 0.007437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_6.asset
-  artifactKey: Guid(3c49e8e44dc724766b625d353e2a9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorGrassToBricksSquare_6.asset using Guid(3c49e8e44dc724766b625d353e2a9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deebcb0f56a5747b851ab1cfca284bd') in 0.004833 seconds 
-  Import took 0.007828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_0.asset
-  artifactKey: Guid(b71abad10825b4c07a86d3882e18beac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_0.asset using Guid(b71abad10825b4c07a86d3882e18beac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fdb45c6995a55211e56f06fc13126b') in 0.005088 seconds 
-  Import took 0.008377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.304021 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_3.asset
-  artifactKey: Guid(dbaa140e7673b49f5ba33d5056cf2a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_3.asset using Guid(dbaa140e7673b49f5ba33d5056cf2a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86835931b1d17056cc1a41fe43a51835') in 0.004773 seconds 
-  Import took 0.007900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_5.asset
-  artifactKey: Guid(7d8a357b381094e59ac8966c761fcccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_5.asset using Guid(7d8a357b381094e59ac8966c761fcccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c0c4b82c4b7fc5d4d5c6776166e677') in 0.005072 seconds 
-  Import took 0.008633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_7.asset
-  artifactKey: Guid(f168cbf59b18c404c8651a8bab78a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_7.asset using Guid(f168cbf59b18c404c8651a8bab78a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd901a8bf8dc36f0585ba2e121cae17') in 0.004989 seconds 
-  Import took 0.008356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_4.asset
-  artifactKey: Guid(5e24302e4329547168013429ddc5d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_4.asset using Guid(5e24302e4329547168013429ddc5d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825ef2564346c0a5eb639f706e3fd6c4') in 0.005009 seconds 
-  Import took 0.007591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_6.asset
-  artifactKey: Guid(40b5a5baeab1c42c78ca6e1628a85c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_6.asset using Guid(40b5a5baeab1c42c78ca6e1628a85c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01618b818da85a66fdd10380fb2bd520') in 0.004962 seconds 
-  Import took 0.007651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_8.asset
-  artifactKey: Guid(f734cb63b88dc4b4599923aa763c2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/tiles/FloorWaterRoundCorners_8.asset using Guid(f734cb63b88dc4b4599923aa763c2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f365a1ec6189e9f324b6da15768206a') in 0.005888 seconds 
-  Import took 0.008542 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001971 seconds.
+Registered in 0.003921 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.008 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1015ms)
+	ReloadAssembly (1008ms)
 		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
 			SetupLoadedEditorAssemblies (311ms)
@@ -808,7 +240,7 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
+				BeforeProcessingInitializeOnLoad (84ms)
 				ProcessInitializeOnLoadAttributes (213ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (1ms)
@@ -818,68 +250,12 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.4 MB.
-System memory in use after: 239.4 MB.
+Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.7 MB.
+System memory in use after: 234.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3015.
-Total: 2.573409 ms (FindLiveObjects: 0.164260 ms CreateObjectMapping: 0.093431 ms MarkObjects: 2.236480 ms  DeleteObjects: 0.078731 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001841 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (848ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (314ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.6 MB.
-System memory in use after: 239.7 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3017.
-Total: 2.670546 ms (FindLiveObjects: 0.203937 ms CreateObjectMapping: 0.105874 ms MarkObjects: 2.278588 ms  DeleteObjects: 0.081383 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 2.589622 ms (FindLiveObjects: 0.160726 ms CreateObjectMapping: 0.092302 ms MarkObjects: 2.258499 ms  DeleteObjects: 0.077519 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -891,131 +267,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001963 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1043ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (880ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (341ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.7 MB.
-System memory in use after: 239.8 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3019.
-Total: 2.594002 ms (FindLiveObjects: 0.165722 ms CreateObjectMapping: 0.103447 ms MarkObjects: 2.239886 ms  DeleteObjects: 0.084226 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 126.072974 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Titles/Tile1.asset
-  artifactKey: Guid(09137517d210246a4bae04317067379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Titles/Tile1.asset using Guid(09137517d210246a4bae04317067379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cbd19aee8aeb28c6a82f362ebd5c17') in 0.035357 seconds 
-  Import took 0.038827 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001742 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (857ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 240.1 MB.
-System memory in use after: 240.2 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3022.
-Total: 2.597169 ms (FindLiveObjects: 0.167885 ms CreateObjectMapping: 0.093062 ms MarkObjects: 2.252769 ms  DeleteObjects: 0.082837 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 277.179499 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(0f51c8f4699954826adcc0cb6df7435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(0f51c8f4699954826adcc0cb6df7435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27aef9ac91efe87d5443b52ca4fe5d7') in 0.003869 seconds 
-  Import took 0.006491 seconds .
-
